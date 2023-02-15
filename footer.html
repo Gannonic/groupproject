@@ -4,66 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
     <title>Document</title>
 </head>
-
 <style>
 
-body {
-    margin: 0;
-}
-footer {
-    background: #5c3d1c;
-    border-top: solid 2px #749551;
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 0;
-    width: 100%;
+  body {
+      margin: 0;
+  }
+  
+  footer {
+      background: #5c3d1c;
+      border-top: solid 2px #749551;
+      position: fixed;
+      bottom: 0;
+      padding-bottom: 0;
+      width: 100%;
+      
+    }
     
-  }
+    footer ul li {
+      display: block;
+      color: #c3b091;
+      font-size: 20px;
+      padding: 13px;
+      text-decoration: none;
+      font-family: Helvetica
+    }
   
-  footer ul li {
-    display: inline;
-    color: #c3b091;
-    font-size: 20px;
-    padding: 13px;
-    text-decoration: none;
-    font-family: Helvetica
-  }
-
-  footer ul a:link {
-    text-decoration: none;
-    color:#c3b091
-  }
+    footer ul img {
+      display: inline;
+      padding: 13px;
+      float: left bottom;
+    }
   
-  footer ul {
-    float: left;
-    padding: 1px;
-  }
+    footer ul a:link {
+      text-decoration: none;
+      color:#c3b091
+    }
+    
+    footer ul {
+      float: left;
+      padding: 1px;
+    }
+    
+    footer ul a:hover {
+      text-decoration: underline;
+      color:#749551
+    }
+    
+    .footer-right {
+      float: right;
+    }
   
-  footer ul a:hover {
-    text-decoration: underline;
-  }
-  
-  .footer-right {
-    float: right;
-  }
-  
-</style>
+    </style>
 <body>
 
     <footer>
         <ul class="footer-left">
           <li><a href="#">Contact Us:</a></li>
-          
+          <li><a href="#">Phone</a></li>
+          <li><a href="#">Email</a></li>
         </ul>
         <ul class="footer-right">    
           <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Settings</a></li>
-          <li><a href="#">Business</a></li>
-        </ul>       
-    </footer>      
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Business Inquiries</a></li>
+        </ul>  
+    </footer>  
+    
+    <ul class="img">
+      <li><a href="insta"><img src="https://cdn-user-icons.flaticon.com/92301/92301749/1676470504233.svg?token=exp=1676471404~hmac=b9b78b18de0dce5079aa9db307dedd5b" style="width:25px;height:25px;"></a></li>
+        <li><a href="fb"><img src="https://cdn-user-icons.flaticon.com/92301/92301749/1676470301109.svg?token=exp=1676471337~hmac=cf8123e59659b014e27dedd4ecd54a45" style="width:25px;height:25px;"></a></li>
+        <li><a href="twitter"><img src="https://cdn-user-icons.flaticon.com/92301/92301749/1676470323343.svg?token=exp=1676471337~hmac=3b59fab7d4c33ae7615b892b2b9df1d5" style="width:25px;height:25px;"></a></li> 
+      </ul>      
     
 </body>
 </html>
